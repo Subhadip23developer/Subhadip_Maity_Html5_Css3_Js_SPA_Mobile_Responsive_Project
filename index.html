@@ -1,0 +1,698 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh"content="20">
+        <title>Furniture Website
+        </title>
+        <link href="Favicon.png" rel="icon" sizes="32*32" type="image/png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+        <section id="home" class="#">
+                <!---------- Header start ---------->
+                <header class="myheader">
+                        <div class="logo">
+                                <img src="Logo.png" id="logo" alt="Logo" title="Sweet Home Furniture">
+                        </div>
+                        <form action="" id="frm">
+                                <input type="text" placeholder="Search Product By Name" autocomplete="off" id="ph"
+                                        required><a href="#Shop"><i class="fa-solid fa-magnifying-glass"
+                                                id="mag"></i></a>
+                                <div id="shopping"><i class="fa-solid fa-cart-shopping" id="shopcart"
+                                                title="View Cart"></i></div>
+                        </form>
+                        <!-------------- Nav start --------------->
+                        <nav id="navbar">
+                                <ul>
+                                        <i class="fa-sharp fa-solid fa-xmark" id="xmark" onclick="closenav()"></i>
+                                        <li><a href="#home" title="Home">HOME</a></li>
+                                        <li><a href="#AboutUs" title="About Us">ABOUT US</a></li>
+                                        <li><a href="#Shop" title="Shop">SHOP</a></li>
+                                        <li><a href="#New Arrival" title="New Arrival">NEW ARRIVAL</a></li>
+                                        <li><a href="#Blog" title="Blog">BLOG</a></li>
+                                        <li><a href="#footer" title="Contact">CONTACT</a></li>
+                                        <a href="landing_page.html"><button class="button">Landing Page</button></a>
+                                </ul>
+                        </nav>
+                        <i class="fa-solid fa-bars" id="fabars" onclick="opennav()"></i>
+                        <!------------ Nav end ------------>
+                </header>
+        </section>
+        <!------------ Header end ---------->
+
+        <div class="allslides">
+                <figure>
+                        <button>Read More</button>
+                        <img alt="image" src="Image1.jpg">
+
+                        <img alt="image" src="Image2.jpg">
+                        <button>Explore Now</button>
+
+                        <img alt="image" src="Image3.jpg">
+
+                        <img alt="image" src="Image1.jpg">
+                        <button>Read More</button>
+                </figure>
+        </div>
+        <!--------- Main Start ---------->
+        <div>
+                <div class="main">
+                        <!--------------About Us Start----------->
+                        <section id="AboutUs">
+                                <div class="xy"></div>
+                                <div class="about">
+                                        <div id="line"></div>
+                                        <div id="line1"></div>
+                                        <div class="aboutleft">
+                                                <h1><span>About Us</span></h1>
+                                                <p>Sweet Home Furniture is India’s premium furniture brand in both home
+                                                        and
+                                                        institutional segments
+                                                        with a strong commitment to sustainability
+                                                        and centers of excellence in design, manufacturing and retail.
+                                                        Our
+                                                        journey was
+                                                        started in 2015
+                                                        with 50 people and now 2022 we are one of the
+                                                        most trustable and reputed company in the world. Currently
+                                                        present in
+                                                        over 30
+                                                        cities with 25
+                                                        companies owned stores and over 100 dealers.
+                                                        Sweet Home Furniture aims to transform spaces with its
+                                                        thoughtfully
+                                                        designed
+                                                        furniture to create
+                                                        brighter homes and offices with products that
+                                                        have the highest design quotient in aesthetics, functionality
+                                                        and
+                                                        technology.
+                                                </p>
+                                        </div>
+                                        <div class="aboutright">
+                                                <img src="About us.png" alt="image" title="Happy Family">
+                                        </div>
+                        </section>
+                </div>
+                <!------------- About Us end ---------->
+                <section id="Shop">
+                        <div class="xy1"></div>
+                        <div class="rectengle">
+                                <div class="rectengle1"></div>
+                                <h1>Shop By Categories</h1>
+                                <div class="rectengle1"></div>
+                        </div>
+                        <!----------- Shop By Categories Start ---------->
+                        <div class="First">
+                                <div class="allBox">
+                                        <div class="Box1" id="Bed">
+                                                <img src="Bedroom.jpg" alt="image" title="Bedroom">
+                                                <div class="Boxcontent">
+                                                        <h1>Bedroom</h1>
+                                                        <h1>₹20,000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Din">
+                                                <img src="Dining room.jpg" alt="image" title="Dining Room">
+                                                <div class="Boxcontent">
+                                                        <h1>Dining Room</h1>
+                                                        <h1>₹10,000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Liv">
+                                                <img src="Living room.jpg" alt="image" title="Living Room">
+                                                <div class="Boxcontent">
+                                                        <h1>Living Room</h1>
+                                                        <h1>₹15,000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Kit">
+                                                <img src="Kitchen room.jpg" alt="image" title="Kitchen Room">
+                                                <div class="Boxcontent">
+                                                        <h1>Kitchen Room</h1>
+                                                        <h1>₹12,000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star-half-stroke"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                </div>
+                                <div class="allBox">
+                                        <div class="Box1" id="Matt">
+                                                <img src="Mattress.jpg" alt="image" title="Mattress">
+                                                <div class="Boxcontent">
+                                                        <h1>Mattress</h1>
+                                                        <h1>₹6000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star-half-stroke"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Cha">
+                                                <img src="Chair.jpg" alt="image" title="Chair">
+                                                <div class="Boxcontent">
+                                                        <h1>Chair</h1>
+                                                        <h1>₹5000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Sof">
+                                                <img src="Sofa.jpg" alt="image" title="Sofa">
+                                                <div class="Boxcontent">
+                                                        <h1>Sofa</h1>
+                                                        <h1>₹7000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                        <div class="Box1" id="Out">
+                                                <img src="Outdoor.jpg" alt="image" title="Outdoor">
+                                                <div class="Boxcontent">
+                                                        <h1>Outdoor</h1>
+                                                        <h1>₹8000/-</h1>
+                                                </div>
+                                                <div class="rating">
+                                                        <i class="fa-solid fa-star"></i><i
+                                                                class="fa-solid fa-star"></i><i
+                                                                class="fa-regular fa-star"></i><i
+                                                                class="fa-regular fa-star"></i>
+                                                </div>
+                                                <div class="BTN"><i class="fa fa-shopping-cart"></i><span>Add to
+                                                                cart</span></div>
+                                        </div>
+                                </div>
+                                <button class="btn">See More</button>
+                        </div>
+        </div>
+        <!----------- Shop By Categories End ---------->
+
+       <!----------- Best Selling Start ---------->
+        <div class="Second">
+                <div id="line1"></div>
+                <h1 id="BestSelling"><span>Best Selling Products</span></h1>
+        </div>
+        <div class="ThirdBox" id="colo">
+                <div class="Boxing1" id="Arm">
+                        <img src="Armchair.jpg" alt="image" title="Armchair">
+                        <div class="Boxingcontent">
+                                <h1>Armchair</h1>
+                                <h1>₹5000/-</h1>
+                        </div>
+                        <div class="BoxingAll">
+                                <div class="star">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="heart">
+                                        <i class="fa-solid fa-heart" onclick="hrtclick()" id="hrt"></i>
+                                </div>
+                                <div class="BTN2"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+
+                        </div>
+                </div>
+                <div class="Boxing1" id="Fab">
+                        <img src="Darwin Fabric Sofa.jpg" alt="image" title="Darwin Fabric Sofa">
+                        <div class="Boxingcontent">
+                                <h1>Darwin Fabric Sofa</h1>
+                                <h1>₹11,000/-</h1>
+                        </div>
+                        <div class="BoxingAll">
+                                <div class="star">
+
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <div class="heart">
+                                        <i class="fa-solid fa-heart" onclick="hrtclick1()" id="hrt1"></i>
+                                </div>
+                                <div class="BTN2"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                </div>
+                <div class="Boxing1" id="Tab">
+                        <img src="Table & Chair.jpg" alt="image" title="Table & Chair">
+                        <div class="Boxingcontent">
+                                <h1>Table & Chair</h1>
+                                <h1>₹4000/-</h1>
+                        </div>
+                        <div class="BoxingAll">
+                                <div class="star">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i>
+
+                                </div>
+                                <div class="heart">
+                                        <i class="fa-solid fa-heart" onclick="hrtclick2()" id="hrt2"></i>
+                                </div>
+                                <div class="BTN2"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                </div>
+                <div class="Boxing1" id="BM">
+                        <img src="Beds & Mattress.jpg" alt="image" title="Beds & Mattress">
+                        <div class="Boxingcontent">
+                                <h1>Beds & Mattress</h1>
+                                <h1>₹6000/-</h1>
+                        </div>
+                        <div class="BoxingAll">
+                                <div class="star">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i><i
+                                                class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="heart">
+                                        <i class="fa-solid fa-heart" onclick="hrtclick3()" id="hrt3"></i>
+                                </div>
+                                <div class="BTN2"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                </div>
+        </div>
+      <!----------- Best Selling End ---------->
+
+      <!----------- New Arrival Start ---------->
+
+        <section id="New Arrival">
+                <div class="xy2"></div>
+
+                <div class="rectengle" id="newrectengle">
+                        <div class="rectengle1"></div>
+                        <h1>New Arrivals</h1>
+                        <div class="rectengle1"></div>
+                </div>
+
+                <div class="ThirdBox" id="newThirdBox">
+                        <div class="Boxer1" id="Kids">
+                                <img src="Kids' Furniture.jpg" alt="image" title="Kids'Furniture">
+                                <div class="Boxescontent">
+                                        <h1>Kids'Furniture</h1>
+                                        <h1>₹4000/-</h1>
+                                </div>
+                                <div class="ThirdboxStar">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <div class="ThirdboxHeart">
+                                        <i class="fa-solid fa-heart" onclick="hrtclick4()" id="hrt4"></i>
+                                </div>
+                                <div class="BTN1"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                        <div class="Boxer1" id="Ward">
+                                <img src="Wardrobe.jpg" alt="image" title="Wardrobe">
+                                <div class="Boxescontent">
+                                        <h1>Wardrobe</h1>
+                                        <h1>₹8000/-</h1>
+                                </div>
+                                <div class="ThirdboxStar">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <div class="ThirdboxHeart">
+
+                                        <i class="fa-solid fa-heart" onclick="hrtclick5()" id="hrt5"></i>
+                                </div>
+                                <div class="BTN1"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                        <div class="Boxer1" id="Light">
+                                <img src="Lighting.jpg" alt="image" title="Lighting">
+                                <div class="Boxescontent">
+                                        <h1>Lighting</h1>
+                                        <h1>₹5000/-</h1>
+                                </div>
+                                <div class="ThirdboxStar">
+
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i><i
+                                                class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="ThirdboxHeart">
+
+                                        <i class="fa-solid fa-heart" onclick="hrtclick6()" id="hrt6"></i>
+                                </div>
+                                <div class="BTN1"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+                        <div class="Boxer1" id="Tabd">
+                                <img src="Table & Desk.jpg" alt="image" title="Table & Desk">
+                                <div class="Boxescontent">
+                                        <h1>Table & Desk</h1>
+                                        <h1>₹7000/-</h1>
+                                </div>
+                                <div class="ThirdboxStar">
+
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-regular fa-star-half-stroke"></i><i
+                                                class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="ThirdboxHeart">
+
+                                        <i class="fa-solid fa-heart" onclick="hrtclick7()" id="hrt7"></i>
+                                </div>
+                                <div class="BTN1"><i class="fa fa-shopping-cart"></i><span>Add to cart</span>
+                                </div>
+                        </div>
+        </section>
+        </div>
+         
+        <!----------- New Arrival End ---------->
+
+        <!----------- Blog Start ---------->
+
+        <section id="Blog">
+                <div class="xy3"></div>
+
+                <div class="Second">
+                        <div id="line2"></div>
+                        <h1><span>Latest Blogs</span></h1>
+                </div>
+                <div class="fourthBox">
+                        <div class="Boxerr1" id="Green">
+                                <img src="Blog_1.jpg" alt="image"
+                                        title="Green Revolution is the best solution to arrest Pollution">
+                                <div class="Boxercontent">
+                                        <h1>"Going Green!<br>Guide for hassle-free houseplants that survive
+                                                Easily" </h1>
+                                </div>
+                                <button class="bn">Read More</button>
+                        </div>
+                        <div class="Boxerr1" id="Best">
+                                <img src="Blog_2.jpg" alt="image" title="Best Suited Sofa">
+                                <div class="Boxercontent">
+                                        <h1>"Is a traditional sofa best suited for your home?<br>Let's find
+                                                out!" </h1>
+                                </div>
+                                <button class="bn">Read More</button>
+                        </div>
+                        <div class="Boxerr1" id="Home">
+                                <img src="Blog_3.jpg" alt="image" title="There is no space like Home!">
+                                <div class="Boxercontent">
+                                        <h1>"Getting ready for a house party?Tips to manage your space" </h1>
+                                </div>
+                                <button class="bn">Read More</button>
+                        </div>
+                </div>
+        </section>
+        <!----------- Blog End ------------->
+
+        <!------------Testimonial Start---------->
+
+        <div class="ThirdBox2">
+                <div>
+                        <h1>TESTIMONIALS</h1>
+                </div>
+                <div class="myMiniBox">
+                        <div class="MiniBox active">
+                                <img src="Salim Javed.png" id="Image6">
+                                <h2>Mr. Salim Javed<br>
+                                        <h3>[Environmental Specialist]</h3>
+                                </h2>
+                                <br>
+                                <img src="Quote.png" id="Image5">
+
+                                <h4> I purchased so many products from Sweet Home Furniture. Their comfort and
+                                        quality
+                                        is what
+                                        keeps bringing me back.
+                                        I would recommend Sweet Home Furniture to everyone who needs quality and
+                                        decent
+                                        looking
+                                        furniture.</h4>
+                                <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+                                <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+                        </div>
+                        <div class="MiniBox">
+                                <img src="Scientist.png" id="Image6">
+                                <h2>Mr. Ronan Martins<br>
+                                        <h3>[Scientist]</h3>
+                                </h2>
+                                <br>
+                                <img src="Quote.png" id="Image5">
+                                <h4> I remember my first purchase from this store ever since i am their
+                                        constant fan they never disappoints me.Their modern collections are
+                                        superamazing.</h4>
+                                <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+                                <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+                        </div>
+                </div>
+        </div>
+        <!----------- Testimonial End ---------->
+
+        <!----------- Brand Partners Start ---------->
+
+        <div class="carousel">
+                <h1>Brand Partners</h1>
+                <div class="carousel__slider">
+                        <ul class="carousel__list">
+                                <li class="carousel__item">
+                                        <span><img src="godrej1.png"></span>
+                                </li>
+                                <li class="carousel__item">
+                                        <span><img src="nilkamal1.png"></span>
+                                </li>
+                                <li class="carousel__item">
+                                        <span><img src="rfl1.png"></span>
+                                </li>
+                                <li class="carousel__item">
+                                        <span><img src="kurlon.png"></span>
+                                </li>
+                                <li class="carousel__item">
+                                        <span><img src="Tata.png"></span>
+                                </li>
+                                <li class="carousel__item">
+                                        <span><img src="supreme.png"></span>
+                                </li>
+                        </ul>
+                </div>
+        </div>
+        <!----------- Brand Partners End ---------->
+
+        <!-----------Footer Start----------->
+        <div>
+                <div class="xy4"></div>
+                <div class="footer" id="footer">
+                        <div class="footerOne">
+                                <div>
+                                        <div>
+                                                <h2 class="footerHeading">Quick Links</h2>
+                                                <h3>
+                                                        <ul>
+                                                                <li><a href="#Home">Home</a></li>
+                                                                <li><a href="#About Us">About Us</a></li>
+                                                                <li><a href="#Shop By Categories">Shop</a></li>
+                                                                <li><a href="#New Arrival">New Arrival</a></li>
+                                                                <li><a href="#Blog">Blog</a></li>
+                                                                <li><a href="Contact">Contact</a></li>
+
+                                                        </ul>
+                                                </h3>
+                                        </div>
+                                        <div>
+                                                <h2 class="footerHeading">Help & Support</h2>
+                                                <h3>
+                                                        <ul>
+                                                                <li><a href="#">Live Chat</a></li>
+                                                                <li><a href="#">FAQ</a></li>
+                                                                <li><a href="#">Support</a></li>
+                                                                <li><a href="#">Terms & Conditions</a></li>
+                                                        </ul>
+                                                </h3>
+                                        </div>
+                                        <div>
+                                                <h2 class="footerHeading">Follow Us</h2>
+                                                <a href="https://www.linkedin.com/in/subhadip-maity-83a533223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bjv7cKvonRJOK5MjZsa0lDg%3D%3D">
+                                                        <i class="fa-brands fa-linkedin" id="linkedin"
+                                                                title="Linkedin"></i></a>
+                                                <a href="https://www.facebook.com/subhadip.maity.3998">
+                                                        <i class="fa-brands fa-square-facebook" id="facebook"
+                                                                title="Facebook"></i>
+
+                                                </a>
+                                                <a href="https://www.instagram.com/iamsubhamaity/">
+                                                        <i class="fa-brands fa-square-instagram" id="instagram"
+                                                                title="Instagram"></i>
+
+                                                </a>
+
+                                                <a href="https://api.whatsapp.com/send/?phone=8158061835&text&type=phone_number&app_absent=0">
+                                                        <i class="fa-brands fa-square-whatsapp" id="instagram"
+                                                                title="Twitter"></i>
+                                                </a>
+
+
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="footerTwo">
+                                <div>
+                                        <div>
+                                                <h2 class="footerHeading">Services</h2>
+                                                <h3>
+                                                        <ul>
+                                                                <li><a href="#">Design Your Room</a></li>
+                                                                <li><a href="#">Kitchen Planning</a></li>
+                                                                <li><a href="#">Installation Service</a></li>
+                                                                <li><a href="#">Customer Service</a></li>
+                                                        </ul>
+                                                </h3>
+                                        </div>
+
+                                        <div>
+                                                <h2 class="footerHeading">Contact</h2>
+                                                <h3><a href="https://goo.gl/maps/ZfvCkyurJ9DXSvdG8"><i class="fa-solid fa-location-dot"></i>Sonarpur, South 24
+                                                        Parganas,
+                                                        Kolkata - 700
+                                                        150 </h3></a>
+                                                <a href="Index.html">
+                                                        <h3><i class="fa-sharp fa-solid fa-globe"></i>www.sweethomefurniture.com
+                                                        </h3>
+                                                </a>
+                                                <a href="mailto:sweethomefurniture98@gmail.com">
+                                                        <h3><i class="fa-solid fa-envelope"></i>sweethomefurniture98@gmail.com
+                                                        </h3>
+                                                </a>
+                                                <h3><i class="fa-solid fa-phone"></i>+(91) 81580 61835</h3>
+                                        </div>
+                                        <div class="visa">
+                                                <h2 class="footerHeading">We Accept</h2>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-cc-visa" title="Visa" id="visaColor"></i>
+                                                </a>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-apple-pay" title="Apple Pay"
+                                                                id="appleColor"></i>
+                                                </a>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-cc-mastercard" title="Mastercard"
+                                                                id="mastercardColor"></i>
+                                                </a>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-google-pay" title="Google Pay"
+                                                                id="googleColor"></i>
+                                                </a>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-stripe" title="Stripe"
+                                                                id="stripeColor"></i>
+                                                </a>
+                                                <a href="#home">
+                                                        <i class="fa-brands fa-amazon-pay" title="Amazon Pay"
+                                                                id="amazonColor"></i>
+                                                </a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="footerThree">
+                                <div>
+                                        <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3687.621071329705!2d88.42811451490849!3d22.44328378524944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSonarpur%20Junction%20Station%2C%20Sonarpur%20Station%20Road%2C%20Kamrabad%2C%20Sonarpur%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1670855490998!5m2!1sen!2sin"
+                                                        width="600" height="450" style="border:0;" allowfullscreen=""
+                                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                                        class="footerHeading"></iframe>
+                                        </div>
+                                        <div>
+                                                <h2 class="footerHeading">Newsletter</h2>
+                                                <div class="footerNewsl">
+                                                        <form>
+                                                                <input type="text" type="email"
+                                                                        placeholder="Enter Your Email Address" required>
+                                                                <button type="submit"
+                                                                        title="Subscribe">Subscribe</button>
+                                                        </form>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="Policy">
+                        <h5>©2022 <a href="#home">www.sweethomefurniture.com </a>| All Rights Reserved | <a
+                                        href="#">Privacy Policy.</a>
+                        </h5>
+                         <div id="myBtn"  onclick="topFunction()" ><i class="fa fa-arrow-circle-up" title="Top"></i></div>
+                </div>
+        </div>
+        </div>
+        <!----------- Footer End ----------->
+</body>
+<script src="Index.js"></script>
+<script>
+
+        let mybutton = document.getElementById("myBtn");
+        
+
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+</html>
